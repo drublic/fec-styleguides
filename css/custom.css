@@ -1,4 +1,7 @@
-
+.reveal {
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 30px;
+}
 
 body {
 	background: #fff url(../img/bg.png);
@@ -17,6 +20,7 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
+	font-family: Helvetica Neue, sans-serif;
 	color: #333;
 	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 }
@@ -24,6 +28,13 @@ body {
 .reveal h1 {
 	text-shadow: 0 1px 0px rgba(0, 0, 0, 0.5);
 }
+
+
+
+.reveal h1 { font-size: 2.77em; }
+.reveal h2 { font-size: 2em;	}
+.reveal h3 { font-size: 1.11em;	}
+.reveal h4 { font-size: 1em;	}
 
 /* Links */
 .reveal a:not(.image) {
@@ -53,6 +64,11 @@ body {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+
+/* Quotes */
+.reveal blockquote p {
+	line-height: 1.4;
+}
 
 
 .reveal {
@@ -185,7 +201,7 @@ body {
 .reveal pre code {
 	margin-bottom: 20px;
 	font-size: 1.5em;
-	line-height: 1.3;
+	line-height: 1.5;
 	padding: 15px;
 }
 
@@ -278,7 +294,7 @@ th, td {
 	left: 10px;
 	bottom: 0;
 	z-index: 1;
-	font: .4em sans-serif;
+	font-size: .5em;
 	color: #aaa;
 	padding: 20px 0 20px 60px;
 
